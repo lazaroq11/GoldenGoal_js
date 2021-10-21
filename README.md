@@ -1,1 +1,1 @@
-# quiz_js
+# Quiz com perguntas relacionadas a futebol desenvolvido com HTML, CSS e JS.
