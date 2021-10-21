@@ -1,0 +1,219 @@
+@import "./global.scss";
+
+body{
+    background-color: rgba(245, 230, 83, 1);
+ 
+}
+
+main{
+    display:none;
+
+}
+
+.desktop{
+    display:flex;
+    align-items: center;
+    align-items: center;
+    flex-direction:column;
+    padding-top:40px;
+    width:100%;
+    font-style: italic;
+    font-weight: 800;
+   
+}
+
+.desktop-msg img{
+    margin-top:20px;
+    width:100%;
+    
+}
+
+.desktop-msg{
+    justify-content: center;
+}
+
+
+@media(max-width:490px){
+    main{
+        display:block;
+        width:100%;
+        height:100vh;
+    }
+
+    .desktop{
+        display:none;
+    }
+
+    .rules{
+      
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left:20px;   
+    }
+
+    .rules img{
+        width:50%;
+    }
+    
+    .rules_description{
+        margin-right: 20px;
+    }
+    .rules_description p{
+        font-size:22px;
+        font-style: italic;
+        font-weight:500;
+     
+        color:	rgb(255,140,0)
+    }
+
+    .rules_description p::before{
+        
+        content:".";
+        text-shadow:#ff8d01 5px 3px 8px;
+        color:	rgb(255,140,0);
+        font-size:40px;
+        
+    }
+    
+    .rodape_rules{
+       
+        margin-top:10px;
+    }
+
+    .btHome{
+        padding-right: 60px;
+        margin-top:20%;  
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;   
+        }
+
+        .btHome a{
+            text-decoration: none;
+            margin-left: 20px;
+            font-size:22px;
+            font-style: italic;
+            font-weight: 600;
+            border-radius:40%;
+            width: 100px;
+            height:100px; 
+            color:	rgb(255,140,0);
+            padding-left:18px;
+            padding-top:2px;        
+        }
+       
+
+       .btHome .btPlay{
+        background-color:#FFD700;
+        border-radius:50%;
+        width:95px;
+        height:30px; 
+       
+    }
+
+    .btHome .btBack{
+        background-color:#FFD700;
+        border-radius:50%;
+        width:95px;
+        height:30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .desktop{
+        display:none;
+    }
+
+    main{
+        display:block;
+        width:100%;
+        height:100vh;
+    }
+
+   
+
+    .rules{
+      
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left:20px;   
+    }
+
+    .rules img{
+        width:50%;
+    }
+    
+    .rules_description{
+        margin-right: 20px;
+    }
+    .rules_description p{
+        font-size:22px;
+        font-style: italic;
+        font-weight:500;
+     
+        color:	rgb(255,140,0)
+    }
+
+    .rules_description p::before{
+        
+        content:".";
+        text-shadow:#ff8d01 5px 3px 8px;
+        color:	rgb(255,140,0);
+        font-size:40px;
+        
+    }
+    
+    .rodape_rules{
+       
+        margin-top:10px;
+    }
+
+    .btHome{
+        padding-right: 60px;
+        margin-top:20%;  
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;   
+        }
+
+        .btHome a{
+            text-decoration: none;
+            margin-left: 20px;
+            font-size:22px;
+            font-style: italic;
+            font-weight: 600;
+            border-radius:40%;
+            width: 100px;
+            height:100px; 
+            color:	rgb(255,140,0);
+            padding-left:18px;
+            padding-top:2px;        
+        }
+       
+
+       .btHome .btPlay{
+        background-color:#FFD700;
+        border-radius:50%;
+        width:95px;
+        height:30px; 
+       
+    }
+
+    .btHome .btBack{
+        background-color:#FFD700;
+        border-radius:50%;
+        width:95px;
+        height:30px;
+    }
+
+
+}
+
+
+  

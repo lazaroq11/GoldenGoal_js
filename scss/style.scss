@@ -1,0 +1,183 @@
+@import "./global.scss";
+
+body{
+    background-color: rgba(245, 230, 83, 1);
+ 
+}
+
+main{
+    display:none;
+}
+
+.desktop{
+    display:flex;
+    align-items: center;
+    align-items: center;
+    flex-direction:column;
+    padding-top:40px;
+    width:100%;
+    font-style: italic;
+    font-weight: 800;
+   
+}
+
+.desktop-msg img{
+    margin-top:20px;
+    width:100%;
+    
+}
+
+.desktop-msg{
+    justify-content: center;
+}
+
+
+
+
+
+@media(max-width:490px){
+    main{
+        display:block;
+    }
+    .desktop{
+        display:none;
+    }
+
+    .golden-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .golden-title img{
+        width:80%;
+    }
+    
+   
+    .btHome{
+        padding-right: 10px;
+        margin-top:2%;  
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        }
+
+        .btHome a{
+            text-decoration: none;
+            margin-left: 20px;
+            font-size:25px;
+            font-style: italic;
+            font-weight: 900;
+            color:	rgb(22, 20, 20);
+            padding-left:28px;
+           
+          
+        
+                  
+        }
+       
+
+       .btHome .btPlay{
+        background-color:#FFD700;
+        border-radius:60%;
+        width:120px;
+        height:40px;
+        padding-top:4px;
+     
+       
+     
+    }
+
+    .btHome .btRules{
+        background-color:#FFD700;
+        border-radius:60%;
+        width:120px;
+        height:40px;
+        padding-top:4px;
+        padding-right:4px;
+    }
+   
+
+   
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+    main{
+        display:block;
+    }
+    .desktop{
+        display:none;
+    }
+
+    .golden-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom:40px;
+    }
+
+    .golden-title img{
+      
+        width:40%;
+    }
+    
+ 
+    .btHome{
+        padding-right: 10px;
+        margin-top:2%;  
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        }
+
+        .btHome a{
+            text-decoration: none;
+            margin-left: 20px;
+            font-size:25px;
+            font-style: italic;
+            font-weight:400;
+            color:	rgb(0, 0, 0);
+            padding-left:17px;
+            padding-top:15px;
+            font-family: 'Rampart One', cursive;
+           
+          
+        
+                  
+        }
+       
+
+       .btHome .btPlay{
+        background-color:#FFD700;
+        border-radius:60%;
+        width:120px;
+        height:40px;
+        padding-top:4px;
+     
+       
+     
+    }
+
+    .btHome .btRules{
+        background-color:#FFD700;
+        border-radius:60%;
+        width:120px;
+        height:40px;
+        padding-top:4px;
+        padding-right:4px;
+    }
+   
+
+
+   
+
+
+}
+
