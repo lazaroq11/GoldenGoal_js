@@ -55,6 +55,7 @@ main{
 
     .rules img{
         width:50%;
+       margin-right:10px;
     }
     
     .rules_description{
@@ -84,7 +85,7 @@ main{
 
     .btHome{
         padding-right: 60px;
-        margin-top:10%;  
+        margin-top:20px;  
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -138,36 +139,27 @@ main{
         display:flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-      
-       
+        justify-content: center;  
     }
 
+    
     .rules img{
-        width:35%;
+        width:20%;
        
     }
-    
-    
     .rules_description p{
-        font-size:18px;
+        font-size:20px;
         font-style: italic;
-        font-weight:500;
-        background-color: #FFD700;
-        border-radius:100%;
-       width:100%;
-       height:100%;
-       margin-top:15px;
-     
+        font-weight:900;
+        margin-top: 15px;
         color:	rgb(22, 20, 20);
     }
 
     .rules_description p::before{
-        
         content:".";
-        text-shadow:#ff8d01 5px 3px 8px;
         color:	rgb(255,140,0);
         font-size:40px;
+        margin-left:1px;
         
     }
     
@@ -177,7 +169,8 @@ main{
 
     
     .btHome{
-        padding-right: 60px; 
+        margin-top:20px;
+        padding-right: 50px; 
         display: flex;
         flex-direction: row;
         align-items: center;
