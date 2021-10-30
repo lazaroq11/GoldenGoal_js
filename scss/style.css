@@ -36,15 +36,15 @@ main {
   font-weight: 800;
 }
 
-.desktop-msg img {
-  margin-top: 20px;
-  width: 100%;
-}
-
 .desktop-msg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.desktop-msg img {
+  margin-top: 20px;
+  width: 100%;
 }
 
 @media (max-width: 490px) {
@@ -74,7 +74,7 @@ main {
   }
   .btHome {
     padding-right: 10px;
-    margin-top: 2%;
+    margin-top: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -88,27 +88,26 @@ main {
   }
   .btHome a {
     text-decoration: none;
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 10px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 900;
     color: #161414;
-    padding-left: 28px;
+    padding-left: 20px;
   }
   .btHome .btPlay {
     background-color: #FFD700;
-    border-radius: 60%;
-    width: 120px;
+    border-radius: 15%;
+    width: 100px;
     height: 40px;
-    padding-top: 4px;
+    padding-top: 8px;
   }
   .btHome .btRules {
     background-color: #FFD700;
-    border-radius: 60%;
-    width: 120px;
+    border-radius: 15%;
+    width: 100px;
     height: 40px;
-    padding-top: 4px;
-    padding-right: 4px;
+    padding-top: 8px;
   }
 }
 
@@ -161,7 +160,6 @@ main {
     color: black;
     padding-left: 17px;
     padding-top: 15px;
-    font-family: 'Rampart One', cursive;
   }
   .btHome .btPlay {
     background-color: #FFD700;

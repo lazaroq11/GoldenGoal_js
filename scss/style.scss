@@ -21,14 +21,18 @@ main{
    
 }
 
-.desktop-msg img{
-    margin-top:20px;
-    width:100%;
-    
-}
+
 
 .desktop-msg{
     justify-content: center;
+
+
+
+    img{
+        margin-top:20px;
+        width:100%;
+        
+    }
 }
 
 
@@ -57,7 +61,7 @@ main{
    
     .btHome{
         padding-right: 10px;
-        margin-top:2%;  
+        margin-top:5px;  
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -66,25 +70,27 @@ main{
 
         .btHome a{
             text-decoration: none;
-            margin-left: 20px;
-            font-size:25px;
+            margin-left: 10px;
+            font-size:20px;
             font-style: italic;
             font-weight: 900;
             color:	rgb(22, 20, 20);
-            padding-left:28px;
+            padding-left:20px;
            
           
         
                   
         }
+        
        
 
        .btHome .btPlay{
         background-color:#FFD700;
-        border-radius:60%;
-        width:120px;
+        border-radius:15%;
+        width:100px;
         height:40px;
-        padding-top:4px;
+        padding-top:8px;
+       
      
        
      
@@ -92,11 +98,12 @@ main{
 
     .btHome .btRules{
         background-color:#FFD700;
-        border-radius:60%;
-        width:120px;
+        border-radius:15%;
+        width:100px;
         height:40px;
-        padding-top:4px;
-        padding-right:4px;
+        padding-top:8px;
+        
+        
     }
    
 
@@ -146,7 +153,7 @@ main{
             color:	rgb(0, 0, 0);
             padding-left:17px;
             padding-top:15px;
-            font-family: 'Rampart One', cursive;
+            
            
           
         
